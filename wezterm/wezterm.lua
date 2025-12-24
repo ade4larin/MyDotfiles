@@ -111,18 +111,18 @@ config.keys = {
 
 	{
 		key = "h",
-		mods = "CTRL",
+		mods = "ALT",
 		action = act.AdjustPaneSize({ "Left", 5 }),
 	},
 	{
 		key = "j",
-		mods = "CTRL",
+		mods = "ALT",
 		action = act.AdjustPaneSize({ "Down", 5 }),
 	},
-	{ key = "k", mods = "CTRL", action = act.AdjustPaneSize({ "Up", 5 }) },
+	{ key = "k", mods = "ALT", action = act.AdjustPaneSize({ "Up", 5 }) },
 	{
 		key = "l",
-		mods = "CTRL",
+		mods = "ALT",
 		action = act.AdjustPaneSize({ "Right", 5 }),
 	},
 }
