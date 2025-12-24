@@ -83,11 +83,11 @@ config.keys = {
 			end),
 		}),
 	},
-	-- {
-	-- 	key = "s",
-	-- 	mods = "CTRL|SHIFT",
-	-- 	action = act({ EmitEvent = "save_session" }),
-	-- },
+	{
+		key = "s",
+		mods = "CTRL|SHIFT",
+		action = act({ EmitEvent = "save_session" }),
+	},
 	{
 		key = "l",
 		mods = "CTRL|SHIFT",
