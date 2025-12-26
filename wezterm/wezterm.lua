@@ -125,6 +125,12 @@ config.keys = {
 		mods = "ALT",
 		action = act.AdjustPaneSize({ "Right", 5 }),
 	},
+
+	{
+		key = "z",
+		mods = "ALT",
+		action = act.TogglePaneZoomState,
+	},
 }
 
 config.default_workspace = "~"
