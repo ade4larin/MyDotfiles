@@ -13,7 +13,7 @@ local act = wezterm.action
 config.font = wezterm.font("JetBrains Mono Nerd Font")
 config.font_size = 14
 
-config.color_scheme = "Maia (Gogh)"
+config.color_scheme = "Github Dark"
 
 config.enable_tab_bar = true
 config.show_tabs_in_tab_bar = false
